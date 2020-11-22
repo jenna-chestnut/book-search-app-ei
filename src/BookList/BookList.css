@@ -1,0 +1,38 @@
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+li {
+    padding-bottom: 15px;
+}
+
+.group {
+    display: flex;
+    padding: 15px;
+}
+
+.item {
+    flex: 1;
+}
+
+span {
+    margin: 15px;
+}
+
+button {
+    display: block;
+    margin: 15px auto;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+p {
+    width: 85%;
+    margin: 15px auto;
+}
+
+li hr {
+    margin: 30px 0;
+}

@@ -1,0 +1,43 @@
+.App {
+  text-align: center;
+}
+
+body {
+  margin: 0;
+}
+
+header {
+  margin: 0;
+  background-color: lightblue;
+  background-image: url('./images/books.jpg');
+}
+
+h1 {
+  font-size: 45px;
+  color: white;
+  background-color: #00002598;
+  padding: 20px;
+  margin: 0;
+}
+
+.loading img {
+  width: 100%;
+  max-width: 200px;
+}
+
+.error {
+  background-color: pink;
+  position: absolute;
+  left: 0;
+  right: 0;
+  width: 100%;
+  top: 0;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+  padding-top: 10px;
+}
+
+.error button {
+  display: flex;
+}
